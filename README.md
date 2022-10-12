@@ -15,3 +15,10 @@ Youtube의 필수 기능(검색, 인기영상, 동영상 재생)을 구현했습
 ## 배포 
 git hub 
 https://ekki88.github.io/Youtube_clone_react
+
+
+
+
+### 오류
+Q. 배포후 홈페이지 로딩시 이미지 엑박남
+A.
