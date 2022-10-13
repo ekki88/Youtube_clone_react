@@ -19,7 +19,7 @@ const SearchHeader = ({onSearch}) => {
     return (
         <header className={styles.header}>
             <div className={styles.logo}>
-            <img className={styles.img} src='/images/logo.png' alt='logo' />
+            <img className={styles.img} src='https://ekki88.github.io/Youtube_clone_react/images/logo.png' alt='logo' />
             <h1 className={styles.title}> Youtube</h1>
             </div>
             <input 
@@ -31,7 +31,7 @@ const SearchHeader = ({onSearch}) => {
             <button className={styles.button} type='submit' onClick={onClick}>
                 <img 
                 className={styles.btnimg} 
-                src='/images/search.png' 
+                src='https://ekki88.github.io/Youtube_clone_react/images/search.png' 
                 alt='search'/>
             </button>
         </header>
