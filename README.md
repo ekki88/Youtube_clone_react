@@ -21,4 +21,4 @@ https://ekki88.github.io/Youtube_clone_react
 
 ### 오류
 Q. 배포후 홈페이지 로딩시 이미지 엑박남<p>
-A.
+A. 절대경로를 사용하여 해결했다 ! 
