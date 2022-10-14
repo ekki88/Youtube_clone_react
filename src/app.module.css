@@ -1,6 +1,11 @@
 .app {
-    max-width: 80rem;
+    display: flex;
 }
+
+.main {
+   max-width: 80rem;
+}
+
 
 .content {
     display: flex;

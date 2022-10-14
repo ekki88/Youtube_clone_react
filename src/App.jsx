@@ -3,6 +3,7 @@ import styles from './app.module.css';
 import SearchHeader from './components/search_header/search_header';
 import VideoList from './components/video_list/video_list';
 import VideoDetail from './components/video_detail/video_detail';
+import AsideBtn from './components/side/aside_btn';
 
 
 
@@ -30,7 +31,11 @@ function App({ youtube }) {
   }, [youtube]);
   return (
     <div className={styles.app}>
+      <AsideBtn/>
+    <div className={styles.main}>
       <SearchHeader onSearch={search} />
+      <div className={styles.asidebtn}>
+      </div>
       <section className={styles.content}>
       {selectedVideo && ( 
       <div className={styles.detail}>
@@ -45,6 +50,8 @@ function App({ youtube }) {
         </div>
       </section>
     </div>
+    </div>
+
   );
 }
 

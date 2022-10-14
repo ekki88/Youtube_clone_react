@@ -1,0 +1,11 @@
+.sidebtn{
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    justify-content: space-between;
+}
+
+.button {
+    outline-style: none;
+    color: pink;
+}
