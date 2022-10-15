@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import styles from './search_header.module.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBell } from "@fortawesome/free-regular-svg-icons";
 
 const SearchHeader = ({onSearch}) => {
     const inputRef = useRef();
@@ -34,6 +36,12 @@ const SearchHeader = ({onSearch}) => {
                 src='https://ekki88.github.io/Youtube_clone_react/images/search.png' 
                 alt='search'/>
             </button>
+            <div className={styles.twobtn}>
+            <button className={styles.headerbtn}>
+            <FontAwesomeIcon className={styles.icon} icon={faBell} />
+                </button>
+            <button className={styles.headerbtn}><img src="" alt="" />me</button>
+            </div>
         </header>
     )
 }

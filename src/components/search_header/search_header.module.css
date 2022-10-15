@@ -18,7 +18,7 @@
 }
 
 .input {
-    flex-basis: 50%;
+    flex-basis: 100%;
     font-size: 1rem;
     outline: 0;
     border: lightgray solid 1px;
@@ -29,10 +29,23 @@
     outline: 0;
     border: lightgray solid 1px;
 }
-.button:hover {
-    background-color: lightgray;
-}
+
 .btnimg{
     height: 100%;
     padding: 0.4em 0.3em;
+}
+
+.twobtn{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerbtn{
+    border: none;
+    margin-left: 3em;
+    background-color: white;
+}
+
+.icon{
+    font-size: 1.2rem;
 }
