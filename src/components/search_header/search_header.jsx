@@ -2,6 +2,8 @@ import React, { useRef } from 'react';
 import styles from './search_header.module.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBell } from "@fortawesome/free-regular-svg-icons";
+import { faUser } from "@fortawesome/free-regular-svg-icons";
+import { faHeart } from "@fortawesome/free-regular-svg-icons";
 
 const SearchHeader = ({onSearch}) => {
     const inputRef = useRef();
@@ -38,9 +40,14 @@ const SearchHeader = ({onSearch}) => {
             </button>
             <div className={styles.twobtn}>
             <button className={styles.headerbtn}>
-            <FontAwesomeIcon className={styles.icon} icon={faBell} />
+                <FontAwesomeIcon className={styles.icon} icon={faHeart} />
                 </button>
-            <button className={styles.headerbtn}><img src="" alt="" />me</button>
+            <button className={styles.headerbtn}>
+                <FontAwesomeIcon className={styles.icon} icon={faBell} />
+                </button>
+            <button className={styles.headerbtn}>
+                <FontAwesomeIcon className={styles.icon} icon={faUser} />
+                </button>
             </div>
         </header>
     )

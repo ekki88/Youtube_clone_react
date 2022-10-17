@@ -49,3 +49,8 @@
 .icon{
     font-size: 1.2rem;
 }
+
+.gitimg{
+    height: 100%;
+    border-radius: 50%;
+}
